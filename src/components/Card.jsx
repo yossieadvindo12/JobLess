@@ -18,7 +18,7 @@ const Card = ({ icon, title, company, content, tools, salary }) => {
             <hr className="px-7 mb-2"/>
         <div className="flex flex-wrap justify-between">
             <h5 className="rounded-md  px-2 bg-slate-100 text-black ">{tools}</h5>
-            <h5>{salary}</h5>
+            {/* <h5>{salary}</h5> */}
         </div>
         </div>
     )
